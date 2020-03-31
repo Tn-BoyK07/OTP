@@ -1,19 +1,19 @@
 # KITABISA OTP
 ===============================================================================
 
-$ pkg update && pkg upgrade
+$ pkg update && pkg upgrade -y
 
-$ pkg install toilet
+$ pkg install toilet -y
 
-$ pkg install python
+$ pkg install python -y
 
 $ pip install requests
 
-$ pkg install git
+$ pkg install git -y
 
-$ git clone https://github.com/Tn-BoyK07/Spam-OTP
+$ git clone https://github.com/Tn-BoyK07/OTP
 
-$ cd Spam-OTP
+$ cd OTP
 
 $ python otp.py
 
